@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Geeglo Search</title>
+	<link rel="stylesheet" href="./resources/s627.css" type="text/css">
+	<script type="text/javascript" src="./resources/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="./resources/main.js"></script>
+</head>
+<body>	
+	<div id="content_wrapper_homepage">
+		<div id="content_homepage">
+	      	<div id="logo_homepage"><img src="./resources/logo.png" width="260px" height="95px"/></div>
+			<form id="search_form_homepage">
+				<input type="text" id="search_form_input_homepage" autofocus tabindex="1" value="">
+				<input type="submit" id="search_button_homepage" tabindex="2" value="">
+				<span class="search_logo"></span>
+			</form>
+		</div> <!-- content_homepage //-->
+	</div> <!-- content_wrapper_homepage //-->	
+	<div id="footer_homepage">
+		<div id="footer_homepage_right">
+			<a href="#" class="" >Set as Homepage</a>
+			&nbsp;
+			<a href="#" class="" >Privacy & Terms</a>
+			&nbsp;
+			<a href="#" class="" >About</a>		
+		</div> <!-- footer_homepage_right //-->
+	</div> <!-- footer_homepage //-->	
+	<div id="header_wrapper">
+        <div id="header">
+            <div id="header_content_wrapper">
+               <div id="header_content">
+                  <div class="clear"></div>
+                  <a tabindex="-1" href="http://localhost:8080/com.geeglo/"><div id="header_logo"></div></a>
+                  <form id="search_form">
+                  	<input type="text" tabindex="1" id="search_form_input" value=""/>
+                     <input type="submit" id="search_button" tabindex="2" value=""/>
+                     <span class="search_logo"></span>
+                  </form>
+                  <div id="compare_wrapper">
+		           		<input type="button" id="compare_button" value="Google"/>
+		          </div>
+                  <div class="clear"></div>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+	<div id="content_wrapper">
+		<div id="content">
+			<div class="result_info"><p></p></div>
+			<div class="links_wrapper"></div>
+		</div>
+		<div class="error_info">
+		    <h1></h1>
+		    <p>Suggestions:</p>
+			<ul class="error_no_files">
+			  <li>Make sure all words are spelled correctly.</li>
+			  <li>Try different keywords.</li>
+			  <li>Try more generous keywords.</li>
+			</ul>
+			<ul class="error_server_error">
+			  <li>Make sure networking is running properly.</li>
+			  <li>Wait a few seconds and try again.</li>
+			</ul>
+		</div>
+		<div class="loading"><img src="./resources/loading.gif" width="50px" height="50px"/></div>
+    </div>
+	<div id="content_wrapper_google" class="close">
+	   	<div id="content_google">
+	   		<div class="result_info"><p></p></div>
+		    <div class="links_wrapper"></div>
+		</div>
+	   	<div class="error_info">
+		    <h1></h1>
+		    <p>Suggestions:</p>
+			<ul class="error_no_files">
+			  <li>Make sure all words are spelled correctly.</li>
+			  <li>Try different keywords.</li>
+			  <li>Try more generous keywords.</li>
+			</ul>
+			<ul class="error_server_error">
+			  <li>Make sure networking is running properly.</li>
+			  <li>Wait a few seconds and try again.</li>
+			</ul>
+		</div>
+		<div class="loading"><img src="./resources/loading.gif" width="50px" height="50px"/></div>
+	</div>
+</body>
+</html>
